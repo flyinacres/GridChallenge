@@ -20,9 +20,9 @@ for i in range(0, T):
                 success = 0
                 break
 
-if success:
-    print 'YES'
-else:
-    print 'No'
+    if success:
+        print 'YES'
+    else:
+        print 'NO'
 
 #print a
